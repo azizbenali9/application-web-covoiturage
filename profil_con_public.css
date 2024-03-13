@@ -1,0 +1,117 @@
+body{
+    background: #eeeeee;
+}
+.cadre{
+    width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 3cm;
+}
+.container{
+    width: 100%;
+    padding: 0;
+    
+}
+.main{
+    background-color: rgb(255, 255, 255);
+    padding: 3em 4em;
+}
+
+.info_con{
+   
+    width: 65em;
+}
+
+
+.info_con .cont{
+    display: flex;
+
+}
+
+.info_con img{
+    border-radius: 50%;
+width: 10em;
+height: 10em;
+}
+.info_con .pseu{
+    margin-left: 3em;
+    margin-top: 30px;
+}
+.info_con .pseu .pseudo{
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 0px;}
+
+
+    .info_con .pseu .gender{
+        font-weight: bold;
+        margin: 0px;
+    color: #1da1f2;
+margin-top:8px;
+margin-bottom:8px;
+
+}
+
+        .info_con .pseu .date_naissance{
+            font-weight: bold;
+            margin: 0px;}
+    
+            .info_voi{
+                background-color: rgb(233, 233, 233);
+            padding: 2em;
+            width: 20em;
+            }
+.info_voi .voiture{
+    margin-bottom: 2em;
+}
+h4{
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.info_voi .voiture .voi{
+    margin-left: 1em;
+}
+.info_voi .voiture .voi .bold{
+    font-weight: bold;
+    margin-bottom: 0.1em;
+}
+
+
+ form{
+    margin-left: 13em;
+display: inline-block;
+width: 30%;
+}
+form .objet{
+    display: inline-block;
+
+margin-bottom: 15px;
+}
+form .objet label{
+    font-weight: bold;
+
+margin-left: 4px;
+}
+form .objet input{
+
+border: 2px solid;
+}
+ form .msg{
+width: 100%;
+}
+ form .msg textarea{
+    width: 100%;
+    height: 10em;
+    border: 2px solid;
+}
+
+ form .input{
+
+border: none;
+background: #1da1f2;
+color: #fff;
+padding: 6px 93px;
+font-weight: bold;}

@@ -1,0 +1,38 @@
+.boite{
+    padding: 2em;
+}
+
+.boite table{
+    width: 100%;
+
+padding: 22px 12px;
+
+border: 2px solid #eeee;
+margin-bottom: 10px;
+}
+
+.boite table td{
+color: #444;
+font-weight: bolder;
+}
+.boite table .pseudo{
+width: 20%;
+padding-left: 1em;
+}
+
+.boite table .objet{
+    width: 45%;
+
+}
+.boite table .date{
+    width: 26%;
+
+}
+
+.boite table .icon{
+    width: 15%;
+
+}
+.boite table a{
+    color: #444;
+}

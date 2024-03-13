@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Basic</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.0/css/all.css" integrity="sha384-Mmxa0mLqhmOeaE8vgOSbKacftZcsNYDjQzuCOm6D02luYSzBG8vpaOykv9lFQ51Y" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link rel="stylesheet" href="../dist/jquery-steps.css">
+  <!-- Demo stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div id="demo">
+      <h2>Publier un trajet</h2>
+    <div class="step-app">
+      <ul class="step-steps">
+        <li class="icon "><a href="#step1">Le trajet</a><i class="fas fa-map-marked-alt"></i></li>
+        <li class="icon"><a href="#step2">Date et heure</a><i class="fas fa-clock"></i></li>
+        <li class="icon"><a href="#step3">Préférences</a><i class="fas fa-suitcase-rolling"></i></li>
+        <li class="icon"><a href="#step4">Places et prix</a><i class="fas fa-hand-holding-usd"></i></li>
+        <li class="icon"><a href="#step5">Publication</a><i class="fas fa-user-check"></i></li>
+      </ul>
+      <div class="step-content">
+        <div class="step-tab-panel" id="step1">
+          <div class="form">
+            <h3>Quel est votre trajet ?</h3>
+
+            <div class="text">
+                    <input type="text" name="Pdepart" placeholder="place de départ" > <i class="fas fa-street-view"></i>
+            </div>
+           
+            <div class="text">
+                <input type="text" name="Parrivee" placeholder="place d'arrivée" ><i class="fas fa-street-view"></i>
+            </div>
+           
+       </div>
+        </div>
+        <div class="step-tab-panel" id="step2">
+          ...
+        </div>
+        <div class="step-tab-panel" id="step3">
+          ...
+        </div>
+        <div class="step-tab-panel" id="step4">
+          ...
+        </div> 
+         <div class="step-tab-panel" id="step5">
+          ...
+        </div>
+      </div>
+      <div class="step-footer">
+        <button data-direction="prev" class="step-btn">Previous</button>
+        <button data-direction="next" class="step-btn">Next</button>
+        <button data-direction="finish" class="step-btn">Finish</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="../dist/jquery-steps.js"></script>
+  <script>
+    $('#demo').steps({
+      onFinish: function () {
+        alert('Wizard Completed');
+      }
+    });
+  </script>
+</body>
+</html>
